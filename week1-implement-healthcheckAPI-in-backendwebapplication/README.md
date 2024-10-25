@@ -10,6 +10,21 @@
    ```bash
    npm install
 
+## Create and Start a Database
+1. login mysql: mysql -u root -p
+2. CREATE DATABASE health_check_API;
+3. SHOW DATABASES;
+4. USE health_check_API;
+5. CREATE TABLE users (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     name VARCHAR(100),
+     email VARCHAR(100),
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+6. SHOW TABLES;
+7. DESCRIBE users;
+8. exit;
+
 ## Start the Application
 - node app.js
 

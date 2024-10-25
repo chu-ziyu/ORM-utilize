@@ -7,27 +7,7 @@
 - testing: Jest, Supertest, chai(with CommonJS), mocha
 
 ## Project Structure
-a02_project/
-│
-├── controllers/      # Controllers that handle API requests
-│   └── userController.js
-├── middlewares/      # Middleware, such as authentication
-│   └── authMiddleware.js
-├── models/           # Database model definitions
-│   └── index.js      # Initializes Sequelize
-│   └── user.js       # User model
-├── routes/           # API route definitions
-│   └── userRoutes.js
-├── config/           # Configuration for the database and other parameters
-│   └── config.js     # Sequelize connection configuration
-│   └── dotenv.js     # Loads environment variables
-├── tests/            # Test folder
-│   └── user.test.js  # Tests for user API
-├── .env              # Stores environment variables
-├── .gitignore        # Git ignore file
-├── package.json      # Project dependencies
-├── app.js            # Entry point of the application
-└── server.js         # File that starts the server
+![alt text](<Screenshot 2024-10-24 at 10.36.07 PM.png>)
 
 ## Project Setup
 1. Initialize your Node.js project: Set up a new directory for your project.
